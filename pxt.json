@@ -1,0 +1,30 @@
+{
+    "name": "直進補正",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "Tinybit": "github:villanova555/Tiny-bitLib#2fc86d80db697b25d49f8c0378e8ebf04bd9b332"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v6.0.22",
+        "tag": "v6.0.22",
+        "commits": "https://github.com/microsoft/pxt-microbit/commits/d4b2649410f09af27917a9a6d78e62e7e5fd2781",
+        "target": "6.0.22",
+        "pxt": "9.0.13",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
